@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Jurusan Impian{% endblock %}
+{% block content %}
+<h3 class="mb-1">⭐ Jurusan Impian</h3>
+<p class="small text-muted mb-3">Disimpan di browser perangkat ini, jadi gunakan HP/laptop dan browser yang sama untuk melihatnya lagi.</p>
+<div id="bmList" class="row g-3 mb-2"></div>
+<div id="bmEmpty" class="text-center text-muted my-4 d-none">
+  <p>Belum ada jurusan yang disimpan.</p>
+  <a class="btn btn-primary" href="{{ url_for('explore') }}">Jelajah jurusan</a>
+</div>
+
+<h3 class="mt-5 mb-3">🏫 Kampus Target</h3>
+<div id="targetWrap" class="table-responsive d-none">
+  <table class="table table-hover align-middle">
+    <thead class="table-light"><tr><th>Kampus</th><th>Jurusan</th><th>Jalur masuk</th><th>Catatan</th><th></th></tr></thead>
+    <tbody id="targetRows"></tbody>
+  </table>
+</div>
+<p id="noTargets" class="text-muted d-none">Belum ada kampus target. Buka halaman detail sebuah jurusan untuk menambahkannya.</p>
+{% endblock %}

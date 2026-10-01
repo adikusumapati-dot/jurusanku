@@ -1,0 +1,20 @@
+[
+  {"kategori": "Hobi", "dimensi": "R", "teks": "Saya senang memperbaiki, merakit, atau mengutak-atik barang (motor, elektronik, mesin)."},
+  {"kategori": "Hobi", "dimensi": "I", "teks": "Saya senang mencari tahu cara kerja sesuatu lewat eksperimen atau riset kecil-kecilan."},
+  {"kategori": "Hobi", "dimensi": "A", "teks": "Saya hobi menggambar, mendesain, menulis, bermusik, atau membuat konten kreatif."},
+  {"kategori": "Hobi", "dimensi": "S", "teks": "Saya senang membantu teman yang sedang kesulitan atau butuh tempat curhat."},
+  {"kategori": "Hobi", "dimensi": "E", "teks": "Saya suka memimpin kegiatan, berjualan, atau meyakinkan orang lain."},
+  {"kategori": "Hobi", "dimensi": "C", "teks": "Saya suka merapikan, mencatat, dan mengatur jadwal atau keuangan dengan teliti."},
+  {"kategori": "Mata Pelajaran", "dimensi": "R", "teks": "Saya lebih semangat pada pelajaran praktik (prakarya, fisika terapan, olahraga) daripada teori."},
+  {"kategori": "Mata Pelajaran", "dimensi": "I", "teks": "Saya menikmati pelajaran seperti Matematika, Fisika, Kimia, atau Biologi."},
+  {"kategori": "Mata Pelajaran", "dimensi": "A", "teks": "Saya menikmati pelajaran seni, bahasa, atau sastra."},
+  {"kategori": "Mata Pelajaran", "dimensi": "S", "teks": "Saya menikmati pelajaran seperti Sosiologi, BK, atau diskusi kelompok."},
+  {"kategori": "Mata Pelajaran", "dimensi": "E", "teks": "Saya menikmati pelajaran Ekonomi, PPKn, atau kegiatan debat dan pidato."},
+  {"kategori": "Mata Pelajaran", "dimensi": "C", "teks": "Saya nyaman dengan pelajaran yang jawabannya jelas dan terstruktur, seperti Akuntansi atau Informatika."},
+  {"kategori": "Gaya Belajar", "dimensi": "R", "teks": "Saya belajar paling baik dengan praktik langsung, bukan hanya membaca."},
+  {"kategori": "Kepribadian", "dimensi": "I", "teks": "Saya penasaran dan sering bertanya 'kenapa' sampai paham akar masalahnya."},
+  {"kategori": "Kepribadian", "dimensi": "A", "teks": "Saya lebih suka bebas berkreasi daripada mengikuti aturan yang kaku."},
+  {"kategori": "Gaya Belajar", "dimensi": "S", "teks": "Saya lebih mudah paham lewat diskusi dan mengajari teman."},
+  {"kategori": "Kepribadian", "dimensi": "E", "teks": "Saya berani mengambil risiko dan percaya diri tampil di depan umum."},
+  {"kategori": "Gaya Belajar", "dimensi": "C", "teks": "Saya suka jadwal belajar yang terencana dan target yang jelas."}
+]

@@ -1,0 +1,108 @@
+{% extends "base.html" %}
+{% from "_macros.html" import bm_btn, rumpun_badge, ul %}
+{% block title %}{{ m.name }}{% endblock %}
+{% block content %}
+<div class="d-flex flex-wrap justify-content-between align-items-start gap-2 mb-3">
+  <div>
+    {{ rumpun_badge(m.rumpun) }}
+    <h2 class="fw-bold mb-0">{{ m.name }}</h2>
+  </div>
+  <div class="d-flex gap-2">
+    <a class="btn btn-sm btn-outline-secondary" href="{{ url_for('compare', a=m.slug) }}">⚖️ Bandingkan</a>
+    {{ bm_btn(m.slug) }}
+  </div>
+</div>
+
+<div class="row g-3">
+  <div class="col-lg-8">
+    <div class="card shadow-sm mb-3"><div class="card-body">
+      <p>{{ m.description }}</p>
+      <div class="row g-3">
+        <div class="col-md-6"><h6>📚 Mata kuliah utama</h6>{{ ul(m.courses) }}</div>
+        <div class="col-md-6"><h6>💼 Prospek karier</h6>{{ ul(m.careers) }}</div>
+      </div>
+    </div></div>
+
+    <div class="row g-3 mb-3">
+      <div class="col-md-6"><div class="card shadow-sm h-100 border-success"><div class="card-body">
+        <h6 class="text-success">👍 Nilai plus</h6>{{ ul(m.pros) }}
+      </div></div></div>
+      <div class="col-md-6"><div class="card shadow-sm h-100 border-danger"><div class="card-body">
+        <h6 class="text-danger">👎 Nilai minus</h6>{{ ul(m.cons) }}
+      </div></div></div>
+    </div>
+
+    <div class="card shadow-sm mb-3"><div class="card-body">
+      <h6>🏛️ Kampus Unggulan untuk Jurusan Ini</h6>
+      <p class="small text-muted">Kurasi awal berdasarkan reputasi umum, bukan peringkat resmi. Cek akreditasi program studi di BAN-PT/LAM serta daya tampung dan jalur seleksi di situs resmi kampus dan SNPMB.</p>
+      {% if m.campuses %}
+      <div class="row g-3">
+        {% for tipe, judul in [('PTN', 'Perguruan Tinggi Negeri'), ('PTS', 'Perguruan Tinggi Swasta')] %}
+        {% set group = m.campuses|selectattr('type', 'equalto', tipe)|list %}
+        {% if group %}
+        <div class="col-md-6">
+          <div class="fw-semibold small mb-1">{{ judul }}</div>
+          <ul class="list-unstyled mb-0">
+            {% for c in group %}
+            <li class="d-flex justify-content-between align-items-center gap-2 py-1 border-bottom">
+              <div>
+                {% if c.website %}<a href="{{ c.website }}" target="_blank" rel="noopener">{{ c.name }}</a>{% else %}{{ c.name }}{% endif %}
+                <div class="small text-muted">{{ c.city }}</div>
+              </div>
+              <button type="button" class="btn btn-sm btn-outline-primary text-nowrap" data-prefill-campus="{{ c.name }}" data-prefill-type="{{ c.type }}">+ Target</button>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+        {% endfor %}
+      </div>
+      {% else %}
+      <p class="text-muted small mb-0">Belum ada data kampus untuk jurusan ini.</p>
+      {% endif %}
+    </div></div>
+
+    <div class="card shadow-sm"><div class="card-body">
+      <h6>📈 Simulasi prospek gaji (juta Rp/bulan)</h6>
+      <p class="small text-muted">Gaji awal Rp{{ '%g'|format(m.salary_min) }}–{{ '%g'|format(m.salary_max) }} jt. Kenaikan di grafik hanyalah asumsi ilustrasi, bukan jaminan.</p>
+      <div class="chart-box"><canvas id="sim"></canvas></div>
+    </div></div>
+  </div>
+
+  <div class="col-lg-4">
+    <div class="card shadow-sm"><div class="card-body">
+      <h6>🏫 Kampus Target</h6>
+      <form id="targetForm" class="vstack gap-2 mb-3">
+        <input type="hidden" name="slug" value="{{ m.slug }}">
+        <input type="hidden" name="major_name" value="{{ m.name }}">
+        <input name="campus" list="kampus" class="form-control form-control-sm" placeholder="Nama kampus" required maxlength="100">
+        <datalist id="kampus">
+          {% for c in all_campuses %}<option value="{{ c.name }}" data-type="{{ c.type }}">{% endfor %}
+        </datalist>
+        <div class="row g-2">
+          <div class="col-4"><select name="campus_type" class="form-select form-select-sm">{% for t in tipe_list %}<option>{{ t }}</option>{% endfor %}</select></div>
+          <div class="col-8"><select name="path" class="form-select form-select-sm">{% for j in jalur %}<option>{{ j }}</option>{% endfor %}</select></div>
+        </div>
+        <input name="note" class="form-control form-control-sm" placeholder="Catatan (opsional)" maxlength="200">
+        <button class="btn btn-sm btn-primary">+ Tambah target</button>
+      </form>
+      <ul id="targetList" data-slug="{{ m.slug }}" class="list-group list-group-flush"></ul>
+      <p class="small text-muted mt-3 mb-0">Tersimpan di browser perangkat ini.</p>
+    </div></div>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+const sim = {{ sim|tojson }};
+new Chart(document.getElementById("sim"), {
+  type: "line",
+  data: { labels: sim.labels, datasets: [
+    { label: "Batas bawah", data: sim.min, borderColor: "#6c757d", tension: .3 },
+    { label: "Batas atas", data: sim.max, borderColor: "#4f46e5", backgroundColor: "rgba(79,70,229,.15)", fill: "-1", tension: .3 },
+  ] },
+  options: { maintainAspectRatio: false, plugins: { legend: { position: "bottom" } } },
+});
+</script>
+{% endblock %}

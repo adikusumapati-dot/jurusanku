@@ -1,0 +1,766 @@
+[
+  {
+    "slug": "teknik-informatika",
+    "nama": "Teknik Informatika / Ilmu Komputer",
+    "rumpun": "Saintek",
+    "minat": {"R": 2, "I": 5, "A": 2, "S": 1, "E": 2, "C": 4},
+    "deskripsi": "Mempelajari pemrograman, algoritma, basis data, kecerdasan buatan, dan rekayasa perangkat lunak.",
+    "mata_kuliah": [
+      "Algoritma & Pemrograman",
+      "Struktur Data",
+      "Basis Data",
+      "Jaringan Komputer",
+      "Kecerdasan Buatan"
+    ],
+    "karier": [
+      "Software Engineer",
+      "Data Scientist",
+      "Cybersecurity Analyst",
+      "Product Manager",
+      "Founder Startup"
+    ],
+    "gaji_juta": [5, 12],
+    "plus": [
+      "Permintaan kerja tinggi dan banyak peluang remote",
+      "Gaji kompetitif dengan peluang karier global"
+    ],
+    "minus": [
+      "Teknologi cepat berubah, harus terus belajar",
+      "Persaingan ketat di level junior"
+    ],
+    "kampus": [
+      "Institut Teknologi Bandung",
+      "Universitas Indonesia",
+      "Universitas Gadjah Mada",
+      "Institut Teknologi Sepuluh Nopember",
+      "Telkom University",
+      "Universitas Bina Nusantara (Binus)"
+    ]
+  },
+  {
+    "slug": "sistem-informasi",
+    "nama": "Sistem Informasi",
+    "rumpun": "Campuran",
+    "minat": {"R": 1, "I": 4, "A": 2, "S": 2, "E": 3, "C": 5},
+    "deskripsi": "Menggabungkan teknologi informasi dengan proses bisnis untuk membangun sistem yang membantu organisasi.",
+    "mata_kuliah": [
+      "Analisis & Perancangan Sistem",
+      "Basis Data",
+      "Manajemen Proyek TI",
+      "ERP",
+      "Business Intelligence"
+    ],
+    "karier": [
+      "Business Analyst",
+      "System Analyst",
+      "IT Consultant",
+      "Project Manager",
+      "Data Analyst"
+    ],
+    "gaji_juta": [5, 10],
+    "plus": [
+      "Perpaduan teknis dan bisnis, karier fleksibel",
+      "Cocok bagi yang tidak ingin coding terlalu berat"
+    ],
+    "minus": [
+      "Kedalaman teknis lebih sedikit dari Informatika",
+      "Perlu portofolio agar menonjol"
+    ],
+    "kampus": [
+      "Universitas Indonesia",
+      "Institut Teknologi Sepuluh Nopember",
+      "Universitas Brawijaya",
+      "Telkom University",
+      "Universitas Bina Nusantara (Binus)"
+    ]
+  },
+  {
+    "slug": "teknik-sipil",
+    "nama": "Teknik Sipil",
+    "rumpun": "Saintek",
+    "minat": {"R": 5, "I": 4, "A": 2, "S": 1, "E": 3, "C": 3},
+    "deskripsi": "Merancang, membangun, dan merawat infrastruktur seperti gedung, jalan, jembatan, dan bendungan.",
+    "mata_kuliah": [
+      "Mekanika Teknik",
+      "Struktur Beton & Baja",
+      "Mekanika Tanah",
+      "Hidrologi",
+      "Manajemen Konstruksi"
+    ],
+    "karier": [
+      "Site Engineer",
+      "Konsultan Struktur",
+      "Pelaksana Proyek",
+      "Engineer BUMN Karya",
+      "Kontraktor"
+    ],
+    "gaji_juta": [5, 9],
+    "plus": [
+      "Proyek infrastruktur terus berjalan",
+      "Hasil kerja nyata dan terlihat"
+    ],
+    "minus": [
+      "Sering bekerja di lapangan dan luar kota",
+      "Tanggung jawab keselamatan tinggi"
+    ],
+    "kampus": [
+      "Institut Teknologi Bandung",
+      "Universitas Gadjah Mada",
+      "Institut Teknologi Sepuluh Nopember",
+      "Universitas Indonesia",
+      "Universitas Diponegoro",
+      "Universitas Katolik Parahyangan"
+    ]
+  },
+  {
+    "slug": "teknik-mesin",
+    "nama": "Teknik Mesin",
+    "rumpun": "Saintek",
+    "minat": {"R": 5, "I": 4, "A": 1, "S": 1, "E": 2, "C": 3},
+    "deskripsi": "Mempelajari desain, produksi, dan perawatan mesin serta sistem energi.",
+    "mata_kuliah": [
+      "Termodinamika",
+      "Mekanika Fluida",
+      "Elemen Mesin",
+      "Proses Manufaktur",
+      "Mesin Konversi Energi"
+    ],
+    "karier": [
+      "Engineer Manufaktur",
+      "Engineer Otomotif",
+      "Teknisi Pembangkit",
+      "Maintenance Engineer",
+      "Peneliti Energi"
+    ],
+    "gaji_juta": [5, 9],
+    "plus": [
+      "Lapangan kerja luas di industri dan energi",
+      "Fondasi kuat untuk banyak bidang teknik"
+    ],
+    "minus": [
+      "Banyak perhitungan dan fisika berat",
+      "Lingkungan kerja pabrik/lapangan"
+    ],
+    "kampus": [
+      "Institut Teknologi Bandung",
+      "Universitas Gadjah Mada",
+      "Institut Teknologi Sepuluh Nopember",
+      "Universitas Indonesia",
+      "Universitas Diponegoro",
+      "Universitas Katolik Parahyangan"
+    ]
+  },
+  {
+    "slug": "teknik-elektro",
+    "nama": "Teknik Elektro",
+    "rumpun": "Saintek",
+    "minat": {"R": 5, "I": 5, "A": 1, "S": 1, "E": 1, "C": 3},
+    "deskripsi": "Mempelajari kelistrikan, elektronika, telekomunikasi, dan sistem kendali.",
+    "mata_kuliah": [
+      "Rangkaian Listrik",
+      "Elektronika Digital",
+      "Sistem Kendali",
+      "Sinyal & Sistem",
+      "Sistem Tenaga"
+    ],
+    "karier": [
+      "Engineer Energi/PLN",
+      "Engineer Telekomunikasi",
+      "Embedded System Engineer",
+      "Automation Engineer",
+      "Peneliti"
+    ],
+    "gaji_juta": [5, 10],
+    "plus": [
+      "Dibutuhkan di energi, telekomunikasi, dan IoT",
+      "Cocok bagi yang suka matematika dan fisika"
+    ],
+    "minus": [
+      "Materi abstrak dan padat",
+      "Persaingan lulusan cukup tinggi"
+    ],
+    "kampus": [
+      "Institut Teknologi Bandung",
+      "Universitas Gadjah Mada",
+      "Universitas Indonesia",
+      "Institut Teknologi Sepuluh Nopember",
+      "Telkom University"
+    ]
+  },
+  {
+    "slug": "teknik-industri",
+    "nama": "Teknik Industri",
+    "rumpun": "Saintek",
+    "minat": {"R": 3, "I": 4, "A": 1, "S": 2, "E": 4, "C": 4},
+    "deskripsi": "Mengoptimalkan sistem produksi, logistik, dan kualitas agar proses kerja efisien.",
+    "mata_kuliah": [
+      "Riset Operasi",
+      "Perancangan Tata Letak",
+      "Pengendalian Kualitas",
+      "Ergonomi",
+      "Supply Chain Management"
+    ],
+    "karier": [
+      "Supply Chain Analyst",
+      "Quality Engineer",
+      "Production Planner",
+      "Management Trainee",
+      "Konsultan Operasional"
+    ],
+    "gaji_juta": [5, 9],
+    "plus": [
+      "Perpaduan teknik dan manajemen, karier fleksibel",
+      "Diterima di industri, perbankan, dan konsultan"
+    ],
+    "minus": [
+      "Bisa terasa 'serba tanggung' tanpa spesialisasi",
+      "Lulusan banyak sehingga persaingan ketat"
+    ],
+    "kampus": [
+      "Institut Teknologi Bandung",
+      "Universitas Gadjah Mada",
+      "Institut Teknologi Sepuluh Nopember",
+      "Universitas Indonesia",
+      "Telkom University",
+      "Universitas Katolik Parahyangan"
+    ]
+  },
+  {
+    "slug": "kedokteran",
+    "nama": "Kedokteran",
+    "rumpun": "Saintek",
+    "minat": {"R": 2, "I": 5, "A": 1, "S": 5, "E": 2, "C": 2},
+    "deskripsi": "Pendidikan untuk menjadi dokter yang mendiagnosis, mengobati, dan mencegah penyakit.",
+    "mata_kuliah": [
+      "Anatomi",
+      "Fisiologi",
+      "Biokimia",
+      "Farmakologi",
+      "Ilmu Penyakit Dalam"
+    ],
+    "karier": [
+      "Dokter Umum",
+      "Dokter Spesialis",
+      "Peneliti Medis",
+      "Dokter Dinas Kesehatan",
+      "Dosen Kedokteran"
+    ],
+    "gaji_juta": [6, 15],
+    "plus": [
+      "Profesi dihormati dan berdampak langsung",
+      "Kebutuhan tenaga dokter selalu tinggi"
+    ],
+    "minus": [
+      "Studi panjang dan biaya besar",
+      "Beban kerja dan tekanan mental tinggi"
+    ],
+    "kampus": [
+      "Universitas Indonesia",
+      "Universitas Gadjah Mada",
+      "Universitas Airlangga",
+      "Universitas Padjadjaran",
+      "Universitas Diponegoro",
+      "Universitas Brawijaya",
+      "Universitas Pelita Harapan",
+      "Universitas Trisakti"
+    ]
+  },
+  {
+    "slug": "farmasi",
+    "nama": "Farmasi",
+    "rumpun": "Saintek",
+    "minat": {"R": 3, "I": 5, "A": 1, "S": 3, "E": 1, "C": 4},
+    "deskripsi": "Mempelajari obat: pembuatan, cara kerja, penggunaan, dan pengawasan mutunya.",
+    "mata_kuliah": [
+      "Kimia Organik",
+      "Farmakologi",
+      "Farmasetika",
+      "Kimia Analisis",
+      "Farmasi Klinik"
+    ],
+    "karier": [
+      "Apoteker",
+      "Quality Control Industri Farmasi",
+      "Regulatory Affairs",
+      "Peneliti Obat",
+      "Apoteker Rumah Sakit"
+    ],
+    "gaji_juta": [4, 8],
+    "plus": [
+      "Jalur karier jelas (industri, RS, apotek)",
+      "Stabil dan terus dibutuhkan"
+    ],
+    "minus": [
+      "Perlu pendidikan profesi apoteker",
+      "Banyak hafalan dan praktikum"
+    ],
+    "kampus": [
+      "Universitas Gadjah Mada",
+      "Universitas Indonesia",
+      "Institut Teknologi Bandung",
+      "Universitas Airlangga",
+      "Universitas Padjadjaran",
+      "Universitas Sanata Dharma",
+      "Universitas Islam Indonesia"
+    ]
+  },
+  {
+    "slug": "keperawatan",
+    "nama": "Keperawatan",
+    "rumpun": "Saintek",
+    "minat": {"R": 3, "I": 3, "A": 1, "S": 5, "E": 1, "C": 3},
+    "deskripsi": "Mempelajari asuhan keperawatan untuk merawat pasien secara menyeluruh.",
+    "mata_kuliah": [
+      "Anatomi & Fisiologi",
+      "Keperawatan Dasar",
+      "Keperawatan Medikal Bedah",
+      "Keperawatan Anak",
+      "Keperawatan Komunitas"
+    ],
+    "karier": [
+      "Perawat Rumah Sakit",
+      "Perawat Komunitas",
+      "Perawat Luar Negeri",
+      "Dosen Keperawatan",
+      "Tenaga Kesehatan Perusahaan"
+    ],
+    "gaji_juta": [3, 7],
+    "plus": [
+      "Peluang kerja besar, termasuk luar negeri",
+      "Pekerjaan bermakna dan membantu orang"
+    ],
+    "minus": [
+      "Shift kerja dan beban fisik berat",
+      "Gaji awal di dalam negeri relatif sedang"
+    ],
+    "kampus": [
+      "Universitas Indonesia",
+      "Universitas Gadjah Mada",
+      "Universitas Airlangga",
+      "Universitas Padjadjaran",
+      "Universitas Diponegoro",
+      "Universitas Pelita Harapan"
+    ]
+  },
+  {
+    "slug": "statistika",
+    "nama": "Statistika / Sains Data",
+    "rumpun": "Saintek",
+    "minat": {"R": 1, "I": 5, "A": 1, "S": 1, "E": 2, "C": 5},
+    "deskripsi": "Mempelajari pengumpulan, analisis, dan interpretasi data untuk pengambilan keputusan.",
+    "mata_kuliah": [
+      "Teori Probabilitas",
+      "Inferensi Statistik",
+      "Analisis Regresi",
+      "Data Mining",
+      "Komputasi Statistik"
+    ],
+    "karier": [
+      "Data Analyst",
+      "Data Scientist",
+      "Statistisi (BPS)",
+      "Actuarial Analyst",
+      "Market Researcher"
+    ],
+    "gaji_juta": [5, 10],
+    "plus": [
+      "Keahlian data dicari di banyak industri",
+      "Landasan kuat untuk AI dan sains data"
+    ],
+    "minus": [
+      "Matematika intensif",
+      "Perlu melengkapi keterampilan pemrograman"
+    ],
+    "kampus": [
+      "IPB University",
+      "Institut Teknologi Sepuluh Nopember",
+      "Universitas Gadjah Mada",
+      "Universitas Padjadjaran",
+      "Universitas Diponegoro"
+    ]
+  },
+  {
+    "slug": "arsitektur",
+    "nama": "Arsitektur",
+    "rumpun": "Campuran",
+    "minat": {"R": 4, "I": 3, "A": 5, "S": 2, "E": 2, "C": 2},
+    "deskripsi": "Merancang bangunan dan ruang yang fungsional, aman, dan estetis.",
+    "mata_kuliah": [
+      "Studio Perancangan",
+      "Struktur Bangunan",
+      "Sejarah & Teori Arsitektur",
+      "Utilitas Bangunan",
+      "Perancangan Kota"
+    ],
+    "karier": [
+      "Arsitek",
+      "Desainer Interior",
+      "Urban Planner",
+      "Konsultan Desain",
+      "Drafter BIM"
+    ],
+    "gaji_juta": [4, 9],
+    "plus": [
+      "Menggabungkan seni dan teknik",
+      "Karya nyata berupa bangunan"
+    ],
+    "minus": [
+      "Tugas studio menguras waktu dan biaya",
+      "Gaji awal belum sebanding beban kerja"
+    ],
+    "kampus": [
+      "Institut Teknologi Bandung",
+      "Universitas Gadjah Mada",
+      "Institut Teknologi Sepuluh Nopember",
+      "Universitas Indonesia",
+      "Universitas Diponegoro",
+      "Universitas Katolik Parahyangan",
+      "Universitas Kristen Petra"
+    ]
+  },
+  {
+    "slug": "psikologi",
+    "nama": "Psikologi",
+    "rumpun": "Campuran",
+    "minat": {"R": 1, "I": 4, "A": 2, "S": 5, "E": 2, "C": 2},
+    "deskripsi": "Mempelajari perilaku dan proses mental manusia serta penerapannya.",
+    "mata_kuliah": [
+      "Psikologi Perkembangan",
+      "Psikologi Sosial",
+      "Psikometri",
+      "Psikologi Klinis",
+      "Metode Penelitian"
+    ],
+    "karier": [
+      "Psikolog (lanjut Profesi)",
+      "HR / Recruiter",
+      "Konselor",
+      "Peneliti",
+      "UX Researcher"
+    ],
+    "gaji_juta": [3, 7],
+    "plus": [
+      "Ilmunya berguna dalam kehidupan sehari-hari",
+      "Karier beragam: klinis, industri, pendidikan"
+    ],
+    "minus": [
+      "Menjadi psikolog perlu pendidikan profesi lanjutan",
+      "Gaji awal sarjana relatif sedang"
+    ],
+    "kampus": [
+      "Universitas Indonesia",
+      "Universitas Gadjah Mada",
+      "Universitas Airlangga",
+      "Universitas Padjadjaran",
+      "Universitas Katolik Atma Jaya",
+      "Universitas Islam Indonesia"
+    ]
+  },
+  {
+    "slug": "dkv",
+    "nama": "Desain Komunikasi Visual",
+    "rumpun": "Soshum",
+    "minat": {"R": 1, "I": 2, "A": 5, "S": 2, "E": 3, "C": 1},
+    "deskripsi": "Mempelajari komunikasi lewat visual: ilustrasi, branding, motion graphic, dan desain antarmuka.",
+    "mata_kuliah": [
+      "Dasar Desain",
+      "Tipografi",
+      "Ilustrasi Digital",
+      "Desain Branding",
+      "Motion Graphic"
+    ],
+    "karier": [
+      "Graphic Designer",
+      "UI/UX Designer",
+      "Art Director",
+      "Motion Designer",
+      "Content Creator"
+    ],
+    "gaji_juta": [4, 8],
+    "plus": [
+      "Portofolio sering lebih dinilai daripada ijazah",
+      "Peluang freelance dan remote"
+    ],
+    "minus": [
+      "Persaingan ketat, gaji awal bervariasi",
+      "Revisi dari klien bisa melelahkan"
+    ],
+    "kampus": [
+      "Institut Teknologi Bandung",
+      "Institut Seni Indonesia Yogyakarta",
+      "Telkom University",
+      "Universitas Bina Nusantara (Binus)",
+      "Universitas Multimedia Nusantara"
+    ]
+  },
+  {
+    "slug": "manajemen",
+    "nama": "Manajemen",
+    "rumpun": "Soshum",
+    "minat": {"R": 1, "I": 2, "A": 2, "S": 3, "E": 5, "C": 4},
+    "deskripsi": "Mempelajari cara mengelola organisasi, sumber daya, pemasaran, dan keuangan bisnis.",
+    "mata_kuliah": [
+      "Pengantar Bisnis",
+      "Manajemen Pemasaran",
+      "Manajemen Keuangan",
+      "Manajemen SDM",
+      "Kewirausahaan"
+    ],
+    "karier": [
+      "Marketing Executive",
+      "HR Specialist",
+      "Management Trainee",
+      "Wirausahawan",
+      "Product Manager"
+    ],
+    "gaji_juta": [4, 8],
+    "plus": [
+      "Fleksibel, bisa masuk hampir semua industri",
+      "Bagus untuk membangun bisnis sendiri"
+    ],
+    "minus": [
+      "Lulusan banyak sehingga persaingan ketat",
+      "Perlu keahlian spesifik agar menonjol"
+    ],
+    "kampus": [
+      "Universitas Indonesia",
+      "Universitas Gadjah Mada",
+      "Universitas Airlangga",
+      "Universitas Padjadjaran",
+      "Universitas Diponegoro",
+      "Universitas Brawijaya",
+      "Universitas Prasetiya Mulya",
+      "Universitas Bina Nusantara (Binus)"
+    ]
+  },
+  {
+    "slug": "akuntansi",
+    "nama": "Akuntansi",
+    "rumpun": "Soshum",
+    "minat": {"R": 1, "I": 3, "A": 0, "S": 2, "E": 2, "C": 5},
+    "deskripsi": "Mempelajari pencatatan, pelaporan, audit, dan analisis keuangan.",
+    "mata_kuliah": [
+      "Akuntansi Keuangan",
+      "Akuntansi Biaya",
+      "Auditing",
+      "Perpajakan",
+      "Sistem Informasi Akuntansi"
+    ],
+    "karier": [
+      "Auditor",
+      "Akuntan Perusahaan",
+      "Konsultan Pajak",
+      "Analis Keuangan",
+      "Akuntan Sektor Publik"
+    ],
+    "gaji_juta": [4, 8],
+    "plus": [
+      "Dibutuhkan hampir semua perusahaan",
+      "Jalur sertifikasi karier jelas"
+    ],
+    "minus": [
+      "Detail dan rutinitas tinggi",
+      "Musim sibuk saat tutup buku dan audit"
+    ],
+    "kampus": [
+      "Universitas Indonesia",
+      "Universitas Gadjah Mada",
+      "Universitas Airlangga",
+      "Universitas Diponegoro",
+      "Universitas Brawijaya",
+      "Universitas Trisakti",
+      "Universitas Bina Nusantara (Binus)"
+    ]
+  },
+  {
+    "slug": "ilmu-komunikasi",
+    "nama": "Ilmu Komunikasi",
+    "rumpun": "Soshum",
+    "minat": {"R": 0, "I": 2, "A": 4, "S": 4, "E": 4, "C": 1},
+    "deskripsi": "Mempelajari penyampaian pesan lewat media, humas, jurnalistik, dan komunikasi digital.",
+    "mata_kuliah": [
+      "Teori Komunikasi",
+      "Jurnalistik",
+      "Public Relations",
+      "Produksi Media",
+      "Komunikasi Digital"
+    ],
+    "karier": [
+      "Public Relations",
+      "Jurnalis",
+      "Social Media Specialist",
+      "Content Strategist",
+      "Copywriter"
+    ],
+    "gaji_juta": [3, 7],
+    "plus": [
+      "Cocok bagi yang suka bercerita dan berinteraksi",
+      "Peluang luas di media digital"
+    ],
+    "minus": [
+      "Lulusan banyak, perlu portofolio nyata",
+      "Gaji awal relatif sedang"
+    ],
+    "kampus": [
+      "Universitas Indonesia",
+      "Universitas Gadjah Mada",
+      "Universitas Padjadjaran",
+      "Universitas Airlangga",
+      "Universitas Diponegoro",
+      "Universitas Multimedia Nusantara",
+      "Universitas Bina Nusantara (Binus)"
+    ]
+  },
+  {
+    "slug": "hukum",
+    "nama": "Ilmu Hukum",
+    "rumpun": "Soshum",
+    "minat": {"R": 0, "I": 3, "A": 1, "S": 4, "E": 5, "C": 3},
+    "deskripsi": "Mempelajari sistem hukum, peraturan perundang-undangan, dan penegakan keadilan.",
+    "mata_kuliah": [
+      "Pengantar Ilmu Hukum",
+      "Hukum Pidana",
+      "Hukum Perdata",
+      "Hukum Tata Negara",
+      "Hukum Bisnis"
+    ],
+    "karier": [
+      "Advokat",
+      "Jaksa / Hakim (lewat seleksi)",
+      "Legal Officer",
+      "Konsultan Hukum",
+      "Notaris (lanjut)"
+    ],
+    "gaji_juta": [4, 10],
+    "plus": [
+      "Jalur karier prestisius dan beragam",
+      "Melatih nalar kritis dan argumentasi"
+    ],
+    "minus": [
+      "Banyak bacaan dan hafalan pasal",
+      "Jalur profesi (advokat/notaris) cukup panjang"
+    ],
+    "kampus": [
+      "Universitas Indonesia",
+      "Universitas Gadjah Mada",
+      "Universitas Airlangga",
+      "Universitas Padjadjaran",
+      "Universitas Diponegoro",
+      "Universitas Brawijaya",
+      "Universitas Katolik Parahyangan",
+      "Universitas Islam Indonesia"
+    ]
+  },
+  {
+    "slug": "hubungan-internasional",
+    "nama": "Hubungan Internasional",
+    "rumpun": "Soshum",
+    "minat": {"R": 0, "I": 3, "A": 2, "S": 4, "E": 4, "C": 2},
+    "deskripsi": "Mempelajari hubungan antarnegara: diplomasi, politik global, ekonomi, dan keamanan.",
+    "mata_kuliah": [
+      "Teori HI",
+      "Diplomasi",
+      "Ekonomi Politik Internasional",
+      "Hukum Internasional",
+      "Politik Luar Negeri"
+    ],
+    "karier": [
+      "Diplomat (lewat seleksi Kemlu)",
+      "Analis Kebijakan",
+      "Staf NGO / Organisasi Internasional",
+      "Peneliti",
+      "Jurnalis Internasional"
+    ],
+    "gaji_juta": [4, 8],
+    "plus": [
+      "Wawasan global dan jejaring internasional",
+      "Cocok bagi yang suka isu dunia"
+    ],
+    "minus": [
+      "Posisi diplomat sangat kompetitif",
+      "Perlu bahasa asing yang kuat"
+    ],
+    "kampus": [
+      "Universitas Indonesia",
+      "Universitas Gadjah Mada",
+      "Universitas Padjadjaran",
+      "Universitas Airlangga",
+      "Universitas Katolik Parahyangan",
+      "Universitas Paramadina"
+    ]
+  },
+  {
+    "slug": "pendidikan-guru",
+    "nama": "Pendidikan (Keguruan / PGSD)",
+    "rumpun": "Soshum",
+    "minat": {"R": 1, "I": 2, "A": 3, "S": 5, "E": 3, "C": 3},
+    "deskripsi": "Menyiapkan calon guru dan pendidik: pedagogik, kurikulum, dan praktik mengajar.",
+    "mata_kuliah": [
+      "Psikologi Pendidikan",
+      "Strategi Pembelajaran",
+      "Pengembangan Kurikulum",
+      "Evaluasi Pembelajaran",
+      "PPL / Magang Mengajar"
+    ],
+    "karier": [
+      "Guru",
+      "Dosen (lanjut S2)",
+      "Pengembang Kurikulum",
+      "Kreator Konten Edukasi",
+      "Trainer / Instruktur"
+    ],
+    "gaji_juta": [2, 6],
+    "plus": [
+      "Jalur ASN/PPPK tersedia",
+      "Berdampak bagi generasi berikutnya"
+    ],
+    "minus": [
+      "Gaji awal guru honorer relatif rendah",
+      "Beban administrasi cukup besar"
+    ],
+    "kampus": [
+      "Universitas Pendidikan Indonesia",
+      "Universitas Negeri Yogyakarta",
+      "Universitas Negeri Malang",
+      "Universitas Sanata Dharma"
+    ]
+  },
+  {
+    "slug": "sastra-inggris",
+    "nama": "Sastra Inggris",
+    "rumpun": "Soshum",
+    "minat": {"R": 0, "I": 3, "A": 5, "S": 3, "E": 2, "C": 2},
+    "deskripsi": "Mempelajari bahasa, sastra, linguistik, dan penerjemahan bahasa Inggris.",
+    "mata_kuliah": [
+      "Linguistik",
+      "Translation",
+      "Literary Studies",
+      "Cross-Cultural Understanding",
+      "Academic Writing"
+    ],
+    "karier": [
+      "Penerjemah / Interpreter",
+      "Content Writer",
+      "Guru Bahasa",
+      "Staf Humas",
+      "Editor / Penerbit"
+    ],
+    "gaji_juta": [3, 7],
+    "plus": [
+      "Kemampuan bahasa bernilai di banyak bidang",
+      "Peluang kerja remote dan freelance"
+    ],
+    "minus": [
+      "Jalur karier tidak selalu linear",
+      "Harus ditambah keahlian lain agar menonjol"
+    ],
+    "kampus": [
+      "Universitas Indonesia",
+      "Universitas Gadjah Mada",
+      "Universitas Padjadjaran",
+      "Universitas Diponegoro",
+      "Universitas Airlangga",
+      "Universitas Kristen Petra"
+    ]
+  }
+]

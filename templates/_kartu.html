@@ -1,0 +1,4 @@
+{% from "_macros.html" import major_card %}
+{% for m in majors %}
+<div class="col-md-6 col-xl-4">{{ major_card(m, true) }}</div>
+{% endfor %}
